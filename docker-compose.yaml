@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  nginxapp:
+    image: tththu/nginx:latest
+    container_name: nginx-container
+    ports:
+      - "8081:80"
